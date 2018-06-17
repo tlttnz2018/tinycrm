@@ -83,6 +83,7 @@ Because the allowed time is limited so author don't use any other technologies l
 
 ## How to build and run
 From the parent directory, issue the following command to build front end and backend into one uber jar file
+#### `cd frontend && npm install`
 #### `mvn clean install`
 
 To run the whole front end and back end, use the following command
@@ -90,6 +91,13 @@ To run the whole front end and back end, use the following command
 
 To initialize dummy data for demoing, add the following properties
 #### `java -Dspring.profiles.active=dev -jar backend/target/backend-0.0.1-SNAPSHOT.jar`
+
+### Known issue
+If you cannot see any home page when accessing `http://localhost:8080` please stop the server. Then please issue again the command
+
+#### `mvn clean install`
+
+to make sure that the backend jar has reference to frontend jar. Then re-run the java command above.
 
 ## How to develop for front end
 In order to develop front end, you can run the following commands
