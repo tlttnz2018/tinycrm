@@ -106,15 +106,15 @@ In order to develop front end, you can run the following commands
 #### `yarn build`
 
 * To start the front end
-####`yarn start`
+#### `yarn start`
 
 * To test front end code
-####`yarn test`
+#### `yarn test`
 
 You can also add or remove packages in developing front end using yarn
 #### `yarn add moment`
 or 
-####`yarn remove jquery`
+#### `yarn remove jquery`
 
 You may need to start the backend to test your front end by using the following command in **backend** directory
 #### `mvn -Dspring.profiles.active=dev spring-boot:run`
