@@ -13,7 +13,7 @@ Below is some explanations and information on how to do the common task
 - [How to develop for back end](#how-to-develop-for-back-end)
 - [Known issues](#known-issues)
 
-##Folder structure
+## Folder structure
 ```
 tinycrm/
   README.md
